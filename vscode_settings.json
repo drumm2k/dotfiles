@@ -1,0 +1,25 @@
+{
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "telemetry.enableTelemetry": false,
+  "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
+  "editor.fontSize": 14,
+  "sync.gist": "",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.colorTheme": "Dracula",
+  "sync.forceUpload": true
+}
