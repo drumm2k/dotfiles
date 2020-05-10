@@ -1,11 +1,14 @@
 {
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
+  "window.zoomLevel": 0.2,
   "files.trimTrailingWhitespace": true,
   "telemetry.enableTelemetry": false,
-  "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
-  "editor.fontSize": 14,
-  "sync.gist": "",
+  // "editor.fontFamily": "Fira Code, Consolas, Courier New, monospace",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Hasklig, Consolas, Courier New, monospace",
+  // "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
   "sync.quietSync": false,
   "sync.removeExtensions": true,
   "sync.syncExtensions": true,
@@ -16,10 +19,18 @@
     "javascript": "javascriptreact",
     "vue-html": "html"
   },
-  "prettier.eslintIntegration": true,
   "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
-  "workbench.iconTheme": "vscode-great-icons",
-  "workbench.colorTheme": "Dracula",
-  "sync.forceUpload": true
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "sync.forceUpload": true,
+  "workbench.colorTheme": "ReUI Default Bordered (react)"
 }
